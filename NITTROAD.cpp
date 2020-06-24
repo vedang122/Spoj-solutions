@@ -14,6 +14,8 @@ Detailed Approach
 5. Now we are all set to start solving the problem backwards..!! :) .. Start from the Last query. ADD the edge using UNION for the query of type "R x". When you add an edge, decrease the value of count. Store the value of count in a stack whenever you get the query of type "Q".
 6. Print them backward after you finish with all the queries.
 
+ Code strats here -
+ 
 #include <bits/stdc++.h>
 using namespace std;
 using namespace std::chrono;
